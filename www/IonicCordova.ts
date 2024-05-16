@@ -169,6 +169,11 @@ export interface IDeployConfig {
   channel?: string;
 
   /**
+   * Whether the user disabled deploy updates or not.
+   */
+  disabled: boolean;
+
+  /**
    * The number of previous updates to be cached on the device
    */
   maxVersions?: number;
